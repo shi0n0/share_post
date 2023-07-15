@@ -15,7 +15,17 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'pry-byebug'
+  gem 'factory_bot_rails', '6.2.0'
+  gem 'factory_bot', '6.2.1'
 end
+
+gem 'rspec-rails', '6.0.2'
+gem 'rspec-core', '3.12.2'
+gem 'rspec-expectations', '3.12.3'
+gem 'rspec-mocks', '3.12.5'
+gem 'rspec-support', '3.12.0'
+gem 'devise'
 
 group :development do
   gem 'rubocop', require: false
